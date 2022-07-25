@@ -142,8 +142,6 @@ header .btn {
     margin-left: 100px;
     margin-top: 0;
     margin-bottom: 0;
-
-
 }
 
 .container.wall section button {
@@ -207,11 +205,12 @@ header .btn {
     z-index: 99;
 }
 
-.container.container-page2{
+.container.container-page2 {
     position: relative;
     height: 1200px;
 
 }
+
 .container .background-image .img11 {
     position: absolute;
     width: 100%;
@@ -222,10 +221,10 @@ header .btn {
 }
 
 .container .background-image .img22 {
-    position:absolute ;
+    position: absolute;
     z-index: 6;
     top: -30px;
-    right:0;
+    right: 0;
     width: 650px;
     height: 600px;
     background-image: url('./pic/bg for 3d.png')
@@ -241,17 +240,17 @@ header .btn {
 }
 
 .container.heading {
-   
+
     position: absolute;
     z-index: 11;
-    width: 100%; 
-    height:300px;
-    display:flex ;
+    width: 100%;
+    height: 300px;
+    display: flex;
     justify-content: space-around;
     margin-top: 100px;
 }
 
-.container.heading .heado{
+.container.heading .heado {
     color: #fff;
     font-family: 'SF Pro Display bold';
     font-style: normal;
@@ -260,19 +259,18 @@ header .btn {
     width: 600px;
 }
 
-.container.content-wrapper{
-    position:absolute;
+.container.content-wrapper {
+    position: absolute;
     z-index: 12;
-    width: 100%; 
-    height:500px;
-    display:flex ;
+    width: 100%;
+    height: 500px;
+    display: flex;
     justify-content: space-around;
     top: 400px;
 }
 
 .container.content-wrapper aside ul li {
     list-style: none;
-    decoration: none;
     font-family: 'SF Pro Display header';
     color: #fff;
     padding: 30px;
@@ -284,10 +282,105 @@ header .btn {
     color: #fff;
 }
 
-.container.content-wrapper .container-pic img{
+.container.content-wrapper .container-pic img {
     width: 800px;
     height: 600px;
 
 }
 
+.container.page2footer {
+    z-index: 15;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    top: 970px;
+}
 
+.container.page2footer .right-contain {
+    width: 500px;
+    color: #fff;
+    left: 0;
+
+
+}
+
+.container.page2footer .right-contain h2 {
+    font-family: 'SF Pro Display bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    width: 500px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-left: 1px solid pink;
+    padding-left: 150px;
+    margin-left: 100px;
+
+}
+
+.container.page2footer .right-contain p {
+    font-family: 'SF Pro Display lite';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 20px;
+    color: #606060;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 250px;
+}
+
+.container.page2footer .right-contain button {
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    left: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'SF Pro Display header';
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+
+.container.page2footer .left-contain {
+    right: 0;
+    margin-right: 250px;
+    position: relative;
+    display: inline-block;
+}
+
+.container.page2footer .left-contain h2 {
+    color: #e0e0ec;
+    font-family: 'SF Pro Display bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 130px;
+    width: 200px;
+    height: 120px;
+    margin-top: 0;
+    margin-left: 350px;
+    margin-bottom: 5px;
+    padding-left: 150px;
+}
+
+.container.page2footer .left-contain p {
+    color: #e0e0ec;
+    font-family: 'SF Pro Display lite';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: 350px;
+    padding-left: 160px;
+
+}
